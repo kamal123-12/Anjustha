@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.game-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #38761d; /* गाढा हरियो */
+}
+
+.controls-panel, .stats-panel {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#gameCanvas {
+    border: 5px solid #38761d; /* क्यानभासको बोर्डर */
+    background-color: #e6ffe6; /* हल्का हरियो पृष्ठभूमी */
+    display: block;
+    margin: 0 auto;
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f44336; /* रातो */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#startButton:hover {
+    background-color: #d32f2f;
+}
+
+.speed-select {
+    margin: 10px 0;
+}
+
+#gameOverMessage {
+    margin-top: 20px;
+    color: #f44336;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.stats-panel p {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 1.1em;
+}
